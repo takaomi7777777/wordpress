@@ -1,0 +1,1185 @@
+/*----------------------------------------------
+ Option decoration with images
+ ---------------------------------------------*/
+/* ---- FAQ ---- */
+.a:before,
+.a_blue:before,
+.a_darkblue:before,
+.a_gold:before,
+.a_green:before,
+.a_grey:before,
+.a_lightblue:before,
+.a_lightgreen:before,
+.a_lightorange:before,
+.a_lightpink:before,
+.a_lilac:before,
+.a_mocha:before,
+.a_orange:before,
+.a_pink:before,
+.a_red:before,
+.a_silver:before,
+.a_yellow:before,
+.ex:before,
+.ex_blue:before,
+.ex_darkblue:before,
+.ex_gold:before,
+.ex_green:before,
+.ex_grey:before,
+.ex_lightblue:before,
+.ex_lightgreen:before,
+.ex_lightorange:before,
+.ex_lightpink:before,
+.ex_lilac:before,
+.ex_mocha:before,
+.ex_orange:before,
+.ex_pink:before,
+.ex_red:before,
+.ex_silver:before,
+.ex_yellow:before,
+.q:before,
+.q_gold:before,
+.q_green:before,
+.q_grey:before,
+.q_lightblue:before,
+.q_lightgreen:before,
+.q_lightorange:before,
+.q_lightpink:before,
+.q_lilac:before,
+.q_mocha:before,
+.q_orange:before,
+.q_pink:before,
+.q_red:before,
+.q_silver:before,
+.q_yellow:before,
+.qmark:before,
+.qmark_blue:before,
+.qmark_darkblue:before,
+.qmark_gold:before,
+.qmark_green:before,
+.qmark_grey:before,
+.qmark_lightblue:before,
+.qmark_lightgreen:before,
+.qmark_lightorange:before,
+.qmark_lightpink:before,
+.qmark_lilac:before,
+.qmark_mocha:before,
+.qmark_orange:before,
+.qmark_pink:before,
+.qmark_red:before,
+.qmark_silver:before,
+.qmark_yellow:before{
+	display:block;
+	float:left;
+	content:"";
+    background: url(../img/option-decoration/css-sprite.png) no-repeat top left;
+	margin-top:-13px;
+	width:36px;
+	height:36px;
+	padding-right:6px;
+}
+
+.a,
+.a_blue,
+.a_darkblue,
+.a_gold,
+.a_green,
+.a_grey,
+.a_lightblue,
+.a_lightgreen,
+.a_lightorange,
+.a_lightpink,
+.a_lilac,
+.a_mocha,
+.a_orange,
+.a_pink,
+.a_red,
+.a_silver,
+.a_yellow,
+.ex,
+.ex_blue,
+.ex_darkblue,
+.ex_gold,
+.ex_green,
+.ex_grey,
+.ex_lightblue,
+.ex_lightgreen,
+.ex_lightorange,
+.ex_lightpink,
+.ex_lilac,
+.ex_mocha,
+.ex_orange,
+.ex_pink,
+.ex_red,
+.ex_silver,
+.ex_yellow,
+.q,
+.q_blue,
+.q_darkblue,
+.q_gold,
+.q_green,
+.q_grey,
+.q_lightblue,
+.q_lightgreen,
+.q_lightorange,
+.q_lightpink,
+.q_lilac,
+.q_mocha,
+.q_orange,
+.q_pink,
+.q_red,
+.q_silver,
+.q_yellow,
+.qmark,
+.qmark_blue,
+.qmark_darkblue,
+.qmark_gold,
+.qmark_green,
+.qmark_grey,
+.qmark_lightblue,
+.qmark_lightgreen,
+.qmark_lightorange,
+.qmark_lightpink,
+.qmark_lilac,
+.qmark_mocha,
+.qmark_orange,
+.qmark_pink,
+.qmark_red,
+.qmark_silver,
+.qmark_yellow {
+	margin-top:30px;
+	margin-bottom:-22px;
+	clear:both;
+	display:block;
+	font-size:17px;
+	font-weight:bold;
+	line-height:168%;
+}
+
+.a_blue:before{ background-position: 0 0; }
+.a_darkblue:before{ background-position: 0 -46px;}
+.a_gold:before{ background-position: 0 -92px;}
+.a:before,
+.a_green:before{ background-position: 0 -138px;}
+.a_grey:before{ background-position: 0 -184px;}
+.a_lightblue:before{ background-position: 0 -230px;}
+.a_lightgreen:before{ background-position: 0 -276px;}
+.a_lightorange:before{ background-position: 0 -322px;}
+.a_lightpink:before{ background-position: 0 -368px;}
+.a_lilac:before{ background-position: 0 -414px;}
+.a_mocha:before{ background-position: 0 -460px;}
+.a_orange:before{ background-position: 0 -506px;}
+.a_pink:before{ background-position: 0 -552px;}
+.a_red:before{ background-position: 0 -598px;}
+.a_silver:before{ background-position: 0 -644px;}
+.a_yellow:before{ background-position: 0 -690px;}
+.ex_blue:before{ background-position: -136px -257px;}
+.ex_darkblue:before{ background-position: -136px -303px;}
+.ex_gold:before{ background-position: -136px -349px;}
+.ex_green:before{ background-position: -136px -395px;}
+.ex_grey:before{ background-position: -136px -441px;}
+.ex_lightblue:before{ background-position: -136px -487px;}
+.ex_lightgreen:before{ background-position: -136px -533px;}
+.ex_lightorange:before{ background-position: -136px -579px;}
+.ex_lightpink:before{ background-position: -136px -625px;}
+.ex_lilac:before{ background-position: -136px -671px;}
+.ex_mocha:before{ background-position: -136px -717px;}
+.ex:before,
+.ex_orange:before{ background-position: -136px -763px;}
+.ex_pink:before{ background-position: -136px -809px;}
+.ex_red:before{ background-position: -136px -855px;}
+.ex_silver:before{ background-position: -136px -901px;}
+.ex_yellow:before{ background-position: -136px -947px;}
+
+.q_blue:before{ background-position: -272px -1368px;}
+.q_darkblue:before{ background-position: -272px -1414px;}
+.q_gold:before{ background-position: -272px -1460px;}
+.q_green:before{ background-position: -272px -1506px;}
+.q_grey:before{ background-position: -272px -1552px;}
+.q_lightblue:before{ background-position: -272px -1598px;}
+.q_lightgreen:before{ background-position: -272px -1644px;}
+.q_lightorange:before{ background-position: -272px -1690px;}
+.q_lightpink:before{ background-position: -272px -1736px;}
+.q_lilac:before{ background-position: -272px -1782px;}
+.q_mocha:before{ background-position: -272px -1828px;}
+.q_orange:before{ background-position: -272px -1874px;}
+.q:before,
+.q_pink:before{ background-position: -272px -1920px;}
+.q_red:before{ background-position: -272px -1966px;}
+.q_silver:before{ background-position: -340px 0;}
+.q_yellow:before{ background-position: -340px -46px;}
+.qmark_blue:before{ background-position: -340px -92px;}
+.qmark_darkblue:before{ background-position: -340px -138px;}
+.qmark_gold:before{ background-position: -340px -184px;}
+.qmark_green:before{ background-position: -340px -230px;}
+.qmark_grey:before{ background-position: -340px -276px;}
+.qmark_lightblue:before{ background-position: -340px -322px;}
+.qmark_lightgreen:before{ background-position: -340px -368px;}
+.qmark_lightorange:before{ background-position: -340px -414px;}
+.qmark_lightpink:before{ background-position: -340px -460px;}
+.qmark_lilac:before{ background-position: -340px -506px;}
+.qmark_mocha:before{ background-position: -340px -552px;}
+.qmark_orange:before{ background-position: -340px -598px;}
+.qmark:before,
+.qmark_pink:before{ background-position: -340px -644px;}
+.qmark_red:before{ background-position: -340px -690px;}
+.qmark_silver:before{ background-position: -340px -736px;}
+.qmark_yellow:before{ background-position: -340px -782px;}
+
+
+
+/* ---- Attention ---- */
+.check:before,
+.check_blue:before,
+.check_darkblue:before,
+.check_gold:before,
+.check_green:before,
+.check_grey:before,
+.check_lightblue:before,
+.check_lightgreen:before,
+.check_lightorange:before,
+.check_lightpink:before,
+.check_lilac:before,
+.check_mocha:before,
+.check_orange:before,
+.check_pink:before,
+.check_red:before,
+.check_silver:before,
+.check_yellow:before,
+.checked_blue:before,
+.checked_green:before,
+.checked_red:before,
+.chuui:before,
+.chuui_blue:before,
+.chuui_darkblue:before,
+.chuui_gold:before,
+.chuui_green:before,
+.chuui_grey:before,
+.chuui_lightblue:before,
+.chuui_lightgreen:before,
+.chuui_lightorange:before,
+.chuui_lightpink:before,
+.chuui_lilac:before,
+.chuui_mocha:before,
+.chuui_orange:before,
+.chuui_pink:before,
+.chuui_red:before,
+.chuui_silver:before,
+.chuui_yellow:before,
+.chuumoku:before,
+.chuumoku_blue:before,
+.chuumoku_darkblue:before,
+.chuumoku_gold:before,
+.chuumoku_green:before,
+.chuumoku_grey:before,
+.chuumoku_lightblue:before,
+.chuumoku_lightgreen:before,
+.chuumoku_lightorange:before,
+.chuumoku_lightpink:before,
+.chuumoku_lilac:before,
+.chuumoku_mocha:before,
+.chuumoku_orange:before,
+.chuumoku_pink:before,
+.chuumoku_red:before,
+.chuumoku_silver:before,
+.chuumoku_yellow:before,
+.juyou:before,
+.juyou_blue:before,
+.juyou_darkblue:before,
+.juyou_gold:before,
+.juyou_green:before,
+.juyou_grey:before,
+.juyou_lightblue:before,
+.juyou_lightgreen:before,
+.juyou_lightorange:before,
+.juyou_lightpink:before,
+.juyou_lilac:before,
+.juyou_mocha:before,
+.juyou_orange:before,
+.juyou_pink:before,
+.juyou_red:before,
+.juyou_silver:before,
+.juyou_yellow:before,
+.matome:before,
+.matome_blue:before,
+.matome_darkblue:before,
+.matome_gold:before,
+.matome_green:before,
+.matome_grey:before,
+.matome_lightblue:before,
+.matome_lightgreen:before,
+.matome_lightorange:before,
+.matome_lightpink:before,
+.matome_lilac:before,
+.matome_mocha:before,
+.matome_orange:before,
+.matome_pink:before,
+.matome_red:before,
+.matome_silver:before,
+.matome_yellow:before,
+.new:before,
+.new_blue:before,
+.new_darkblue:before,
+.new_gold:before,
+.new_green:before,
+.new_grey:before,
+.new_lightblue:before,
+.new_lightgreen:before,
+.new_lightorange:before,
+.new_lightpink:before,
+.new_lilac:before,
+.new_mocha:before,
+.new_orange:before,
+.new_pink:before,
+.new_red:before,
+.new_silver:before,
+.new_yellow:before,
+.osusume:before,
+.osusume_blue:before,
+.osusume_darkblue:before,
+.osusume_gold:before,
+.osusume_green:before,
+.osusume_grey:before,
+.osusume_lightblue:before,
+.osusume_lightgreen:before,
+.osusume_lightorange:before,
+.osusume_lightpink:before,
+.osusume_lilac:before,
+.osusume_mocha:before,
+.osusume_orange:before,
+.osusume_pink:before,
+.osusume_red:before,
+.osusume_silver:before,
+.osusume_yellow:before,
+.point:before,
+.point_blue:before,
+.point_darkblue:before,
+.point_gold:before,
+.point_green:before,
+.point_grey:before,
+.point_lightblue:before,
+.point_lightgreen:before,
+.point_lightorange:before,
+.point_lightpink:before,
+.point_lilac:before,
+.point_mocha:before,
+.point_orange:before,
+.point_pink:before,
+.point_red:before,
+.point_silver:before,
+.point_yellow:before,
+.tips:before,
+.tips_blue:before,
+.tips_darkblue:before,
+.tips_gold:before,
+.tips_green:before,
+.tips_grey:before,
+.tips_lightblue:before,
+.tips_lightgreen:before,
+.tips_lightorange:before,
+.tips_lightpink:before,
+.tips_lilac:before,
+.tips_mocha:before,
+.tips_orange:before,
+.tips_pink:before,
+.tips_red:before,
+.tips_silver:before,
+.tips_yellow:before,
+.youten:before,
+.youten_blue:before,
+.youten_darkblue:before,
+.youten_gold:before,
+.youten_green:before,
+.youten_grey:before,
+.youten_lightblue:before,
+.youten_lightgreen:before,
+.youten_lightorange:before,
+.youten_lightpink:before,
+.youten_lilac:before,
+.youten_mocha:before,
+.youten_orange:before,
+.youten_pink:before,
+.youten_red:before,
+.youten_silver:before,
+.youten_yellow:before {
+	display:block;
+	float:left;
+	content:"";
+    background: url(../img/option-decoration/css-sprite.png) no-repeat top left;
+	margin-top:0;
+	width: 58px;
+	height: 26px;
+	padding-right:5px;
+}
+.check,
+.check_blue,
+.check_darkblue,
+.check_gold,
+.check_green,
+.check_grey,
+.check_lightblue,
+.check_lightgreen,
+.check_lightorange,
+.check_lightpink,
+.check_lilac,
+.check_mocha,
+.check_orange,
+.check_pink,
+.check_red,
+.check_silver,
+.check_yellow,
+.checked_blue,
+.checked_green,
+.checked_red,
+.chuui,
+.chuui_blue,
+.chuui_darkblue,
+.chuui_gold,
+.chuui_green,
+.chuui_grey,
+.chuui_lightblue,
+.chuui_lightgreen,
+.chuui_lightorange,
+.chuui_lightpink,
+.chuui_lilac,
+.chuui_mocha,
+.chuui_orange,
+.chuui_pink,
+.chuui_red,
+.chuui_silver,
+.chuui_yellow,
+.chuumoku,
+.chuumoku_blue,
+.chuumoku_darkblue,
+.chuumoku_gold,
+.chuumoku_green,
+.chuumoku_grey,
+.chuumoku_lightblue,
+.chuumoku_lightgreen,
+.chuumoku_lightorange,
+.chuumoku_lightpink,
+.chuumoku_lilac,
+.chuumoku_mocha,
+.chuumoku_orange,
+.chuumoku_pink,
+.chuumoku_red,
+.chuumoku_silver,
+.chuumoku_yellow,
+.juyou,
+.juyou_blue,
+.juyou_darkblue,
+.juyou_gold,
+.juyou_green,
+.juyou_grey,
+.juyou_lightblue,
+.juyou_lightgreen,
+.juyou_lightorange,
+.juyou_lightpink,
+.juyou_lilac,
+.juyou_mocha,
+.juyou_orange,
+.juyou_pink,
+.juyou_red,
+.juyou_silver,
+.juyou_yellow,
+.matome,
+.matome_blue,
+.matome_darkblue,
+.matome_gold,
+.matome_green,
+.matome_grey,
+.matome_lightblue,
+.matome_lightgreen,
+.matome_lightorange,
+.matome_lightpink,
+.matome_lilac,
+.matome_mocha,
+.matome_orange,
+.matome_pink,
+.matome_red,
+.matome_silver,
+.matome_yellow,
+.new,
+.new_blue,
+.new_darkblue,
+.new_gold,
+.new_green,
+.new_grey,
+.new_lightblue,
+.new_lightgreen,
+.new_lightorange,
+.new_lightpink,
+.new_lilac,
+.new_mocha,
+.new_orange,
+.new_pink,
+.new_red,
+.new_silver,
+.new_yellow,
+.osusume,
+.osusume_blue,
+.osusume_darkblue,
+.osusume_gold,
+.osusume_green,
+.osusume_grey,
+.osusume_lightblue,
+.osusume_lightgreen,
+.osusume_lightorange,
+.osusume_lightpink,
+.osusume_lilac,
+.osusume_mocha,
+.osusume_orange,
+.osusume_pink,
+.osusume_red,
+.osusume_silver,
+.osusume_yellow,
+.point,
+.point_blue,
+.point_darkblue,
+.point_gold,
+.point_green,
+.point_grey,
+.point_lightblue,
+.point_lightgreen,
+.point_lightorange,
+.point_lightpink,
+.point_lilac,
+.point_mocha,
+.point_orange,
+.point_pink,
+.point_red,
+.point_silver,
+.point_yellow,
+.tips,
+.tips_blue,
+.tips_darkblue,
+.tips_gold,
+.tips_green,
+.tips_grey,
+.tips_lightblue,
+.tips_lightgreen,
+.tips_lightorange,
+.tips_lightpink,
+.tips_lilac,
+.tips_mocha,
+.tips_orange,
+.tips_pink,
+.tips_red,
+.tips_silver,
+.tips_yellow,
+.youten,
+.youten_blue,
+.youten_darkblue,
+.youten_gold,
+.youten_green,
+.youten_grey,
+.youten_lightblue,
+.youten_lightgreen,
+.youten_lightorange,
+.youten_lightpink,
+.youten_lilac,
+.youten_mocha,
+.youten_orange,
+.youten_pink,
+.youten_red,
+.youten_silver,
+.youten_yellow {
+	margin-top:22px;
+	margin-bottom:-22px;
+	clear:both;
+	display:block;
+	font-size:17px;
+	font-weight:bold;
+	line-height:174%;
+}
+.check:before,
+.check_blue:before{ background-position: 0 -736px;}
+.check_darkblue:before{ background-position: 0 -772px;}
+.check_gold:before{ background-position: 0 -808px;}
+.check_green:before{ background-position: 0 -844px;}
+.check_grey:before{ background-position: 0 -880px;}
+.check_lightblue:before{ background-position: 0 -916px;}
+.check_lightgreen:before{ background-position: 0 -952px;}
+.check_lightorange:before{ background-position: 0 -988px;}
+.check_lightpink:before{ background-position: 0 -1024px;}
+.check_lilac:before{ background-position: 0 -1060px;}
+.check_mocha:before{ background-position: 0 -1096px;}
+.check_orange:before{ background-position: 0 -1132px;}
+.check_pink:before{ background-position: 0 -1168px;}
+.check_red:before{ background-position: 0 -1204px;}
+.check_silver:before{ background-position: 0 -1240px;}
+.check_yellow:before{ background-position: 0 -1276px;}
+.chuui_blue:before{ background-position: 0 -1472px;}
+.chuui_darkblue:before{ background-position: 0 -1508px;}
+.chuui_gold:before{ background-position: 0 -1544px;}
+.chuui_green:before{ background-position: 0 -1580px;}
+.chuui_grey:before{ background-position: 0 -1616px;}
+.chuui_lightblue:before{ background-position: 0 -1652px;}
+.chuui_lightgreen:before{ background-position: 0 -1688px;}
+.chuui_lightorange:before{ background-position: 0 -1724px;}
+.chuui_lightpink:before{ background-position: 0 -1760px;}
+.chuui_lilac:before{ background-position: 0 -1796px;}
+.chuui_mocha:before{ background-position: 0 -1832px;}
+.chuui_orange:before{ background-position: 0 -1868px;}
+.chuui_pink:before{ background-position: 0 -1904px;}
+.chuui:before,
+.chuui_red:before{ background-position: 0 -1940px;}
+.chuui_silver:before{ background-position: 0 -1976px;}
+.chuui_yellow:before{ background-position: -68px 0;}
+.chuumoku_blue:before{ background-position: -68px -36px;}
+.chuumoku_darkblue:before{ background-position: -68px -72px;}
+.chuumoku_gold:before{ background-position: -68px -108px;}
+.chuumoku_green:before{ background-position: -68px -144px;}
+.chuumoku_grey:before{ background-position: -68px -180px;}
+.chuumoku_lightblue:before{ background-position: -68px -216px;}
+.chuumoku_lightgreen:before{ background-position: -68px -252px;}
+.chuumoku:before,
+.chuumoku_lightorange:before{ background-position: -68px -288px;}
+.chuumoku_lightpink:before{ background-position: -68px -324px;}
+.chuumoku_lilac:before{ background-position: -68px -360px;}
+.chuumoku_mocha:before{ background-position: -68px -396px;}
+.chuumoku_orange:before{ background-position: -68px -432px;}
+.chuumoku_pink:before{ background-position: -68px -468px;}
+.chuumoku_red:before{ background-position: -68px -504px;}
+.chuumoku_silver:before{ background-position: -68px -540px;}
+.chuumoku_yellow:before{ background-position: -68px -576px;}
+.juyou_blue:before{ background-position: -204px -508px;}
+.juyou_darkblue:before{ background-position: -204px -544px;}
+.juyou_gold:before{ background-position: -204px -580px;}
+.juyou_green:before{ background-position: -204px -616px;}
+.juyou_grey:before{ background-position: -204px -652px;}
+.juyou_lightblue:before{ background-position: -204px -688px;}
+.juyou_lightgreen:before{ background-position: -204px -724px;}
+.juyou_lightorange:before{ background-position: -204px -760px;}
+.juyou_lightpink:before{ background-position: -204px -796px;}
+.juyou_lilac:before{ background-position: -204px -832px;}
+.juyou_mocha:before{ background-position: -204px -868px;}
+.juyou_orange:before{ background-position: -204px -904px;}
+.juyou:before,
+.juyou_pink:before{ background-position: -204px -940px;}
+.juyou_red:before{ background-position: -204px -976px;}
+.juyou_silver:before{ background-position: -204px -1012px;}
+.juyou_yellow:before{ background-position: -204px -1048px;}
+.matome_blue:before{ background-position: -204px -1084px;}
+.matome_darkblue:before{ background-position: -204px -1120px;}
+.matome_gold:before{ background-position: -204px -1156px;}
+.matome:before,
+.matome_green:before{ background-position: -204px -1192px;}
+.matome_grey:before{ background-position: -204px -1228px;}
+.matome_lightblue:before{ background-position: -204px -1264px;}
+.matome_lightgreen:before{ background-position: -204px -1300px;}
+.matome_lightorange:before{ background-position: -204px -1336px;}
+.matome_lightpink:before{ background-position: -204px -1372px;}
+.matome_lilac:before{ background-position: -204px -1408px;}
+.matome_mocha:before{ background-position: -204px -1444px;}
+.matome_orange:before{ background-position: -204px -1480px;}
+.matome_pink:before{ background-position: -204px -1516px;}
+.matome_red:before{ background-position: -204px -1552px;}
+.matome_silver:before{ background-position: -204px -1588px;}
+.matome_yellow:before{ background-position: -204px -1624px;}
+.new_blue:before{ background-position: -204px -1660px;}
+.new_darkblue:before{ background-position: -204px -1696px;}
+.new_gold:before{ background-position: -204px -1732px;}
+.new_green:before{ background-position: -204px -1768px;}
+.new_grey:before{ background-position: -204px -1804px;}
+.new:before,
+.new_lightblue:before{ background-position: -204px -1840px;}
+.new_lightgreen:before{ background-position: -204px -1876px;}
+.new_lightorange:before{ background-position: -204px -1912px;}
+.new_lightpink:before{ background-position: -204px -1948px;}
+.new_lilac:before{ background-position: -204px -1984px;}
+.new_mocha:before{ background-position: -272px 0;}
+.new_orange:before{ background-position: -272px -36px;}
+.new_pink:before{ background-position: -272px -72px;}
+.new_red:before{ background-position: -272px -108px;}
+.new_silver:before{ background-position: -272px -144px;}
+.new_yellow:before{ background-position: -272px -180px;}
+.osusume_blue:before{ background-position: -272px -216px;}
+.osusume_darkblue:before{ background-position: -272px -252px;}
+.osusume_gold:before{ background-position: -272px -288px;}
+.osusume_green:before{ background-position: -272px -324px;}
+.osusume_grey:before{ background-position: -272px -360px;}
+.osusume_lightblue:before{ background-position: -272px -396px;}
+.osusume_lightgreen:before{ background-position: -272px -432px;}
+.osusume_lightorange:before{ background-position: -272px -468px;}
+.osusume_lightpink:before{ background-position: -272px -504px;}
+.osusume_lilac:before{ background-position: -272px -540px;}
+.osusume_mocha:before{ background-position: -272px -576px;}
+.osusume:before,
+.osusume_orange:before{ background-position: -272px -612px;}
+.osusume_pink:before{ background-position: -272px -648px;}
+.osusume_red:before{ background-position: -272px -684px;}
+.osusume_silver:before{ background-position: -272px -720px;}
+.osusume_yellow:before{ background-position: -272px -756px;}
+.point_blue:before{ background-position: -272px -792px;}
+.point_darkblue:before{ background-position: -272px -828px;}
+.point_gold:before{ background-position: -272px -864px;}
+.point_green:before{ background-position: -272px -900px;}
+.point_grey:before{ background-position: -272px -936px;}
+.point_lightblue:before{ background-position: -272px -972px;}
+.point_lightgreen:before{ background-position: -272px -1008px;}
+.point_lightorange:before{ background-position: -272px -1044px;}
+.point:before,
+.point_lightpink:before{ background-position: -272px -1080px;}
+.point_lilac:before{ background-position: -272px -1116px;}
+.point_mocha:before{ background-position: -272px -1152px;}
+.point_orange:before{ background-position: -272px -1188px;}
+.point_pink:before{ background-position: -272px -1224px;}
+.point_red:before{ background-position: -272px -1260px;}
+.point_silver:before{ background-position: -272px -1296px;}
+.point_yellow:before{ background-position: -272px -1332px;}
+.tips_blue:before{ background-position: -408px -1204px;}
+.tips:before,
+.tips_darkblue:before{ background-position: -408px -1240px;}
+.tips_gold:before{ background-position: -408px -1276px;}
+.tips_green:before{ background-position: -408px -1312px;}
+.tips_grey:before{ background-position: -408px -1348px;}
+.tips_lightblue:before{ background-position: -408px -1384px;}
+.tips_lightgreen:before{ background-position: -408px -1420px;}
+.tips_lightorange:before{ background-position: -408px -1456px;}
+.tips_lightpink:before{ background-position: -408px -1492px;}
+.tips_lilac:before{ background-position: -408px -1528px;}
+.tips_mocha:before{ background-position: -408px -1564px;}
+.tips_orange:before{ background-position: -408px -1600px;}
+.tips_pink:before{ background-position: -408px -1636px;}
+.tips_red:before{ background-position: -408px -1672px;}
+.tips_silver:before{ background-position: -408px -1708px;}
+.tips_yellow:before{ background-position: -408px -1744px;}
+.youten_blue:before{ background-position: -408px -1932px;}
+.youten_darkblue:before{ background-position: -408px -1968px;}
+.youten_gold:before{ background-position: -555px 0;}
+.youten_green:before{ background-position: -555px -36px;}
+.youten_grey:before{ background-position: -555px -72px;}
+.youten_lightblue:before{ background-position: -555px -108px;}
+.youten_lightgreen:before{ background-position: -555px -144px;}
+.youten_lightorange:before{ background-position: -555px -180px;}
+.youten_lightpink:before{ background-position: -555px -216px;}
+.youten:before,
+.youten_lilac:before{ background-position: -555px -252px;}
+.youten_mocha:before{ background-position: -555px -288px;}
+.youten_orange:before{ background-position: -555px -324px;}
+.youten_pink:before{ background-position: -555px -360px;}
+.youten_red:before{ background-position: -555px -396px;}
+.youten_silver:before{ background-position: -555px -432px;}
+.youten_yellow:before{ background-position: -555px -468px;}
+/* ---- Attention end ---- */
+
+
+
+
+/* ---- Checked mark ---- */
+.checked:before,
+.checked_blue:before,
+.checked_green:before,
+.checked_red:before	{
+	display:block;
+	float:left;
+	content:"";
+    background: url(../img/option-decoration/css-sprite.png) no-repeat top left;
+	margin-top:-9px;
+	width:30px;
+	height:35px;
+	padding-right:4px;
+}
+.checked,
+.checked_blue,
+.checked_green,
+.checked_red {
+	margin-top:30px;
+	margin-bottom:-22px;
+	clear:both;
+	display:block;
+	font-size:17px;
+	font-weight:bold;
+	line-height:174%;
+}
+.checked:before,
+.checked_blue:before{ background-position: 0 -1312px;}
+.checked_green:before{ background-position: 0 -1357px;}
+.checked_red:before{ background-position: 0 -1402px;}
+/* ---- Checked mark end ---- */
+
+
+
+/* ---- Circle,Square ---- */
+.circle1:before,
+.circle1_blue:before,
+.circle1_darkblue:before,
+.circle1_gold:before,
+.circle1_green:before,
+.circle1_grey:before,
+.circle1_lightblue:before,
+.circle1_lightgreen:before,
+.circle1_lightorange:before,
+.circle1_lightpink:before,
+.circle1_lilac:before,
+.circle1_mocha:before,
+.circle1_orange:before,
+.circle1_pink:before,
+.circle1_red:before,
+.circle1_silver:before,
+.circle1_yellow:before,
+.circle2:before,
+.circle2_blue:before,
+.circle2_darkblue:before,
+.circle2_gold:before,
+.circle2_green:before,
+.circle2_grey:before,
+.circle2_lightblue:before,
+.circle2_lightgreen:before,
+.circle2_lightorange:before,
+.circle2_lightpink:before,
+.circle2_lilac:before,
+.circle2_mocha:before,
+.circle2_orange:before,
+.circle2_pink:before,
+.circle2_red:before,
+.circle2_silver:before,
+.circle2_yellow:before,
+.square1:before,
+.square1_blue:before,
+.square1_darkblue:before,
+.square1_gold:before,
+.square1_green:before,
+.square1_grey:before,
+.square1_lightblue:before,
+.square1_lightgreen:before,
+.square1_lightorange:before,
+.square1_lightpink:before,
+.square1_lilac:before,
+.square1_mocha:before,
+.square1_orange:before,
+.square1_pink:before,
+.square1_red:before,
+.square1_silver:before,
+.square1_yellow:before,
+.square2:before,
+.square2_blue:before,
+.square2_darkblue:before,
+.square2_gold:before,
+.square2_green:before,
+.square2_grey:before,
+.square2_lightblue:before,
+.square2_lightgreen:before,
+.square2_lightorange:before,
+.square2_lightpink:before,
+.square2_lilac:before,
+.square2_mocha:before,
+.square2_orange:before,
+.square2_pink:before,
+.square2_red:before,
+.square2_silver:before,
+.square2_yellow:before {
+	display:block;
+	float:left;
+	content:"";
+    background: url(../img/option-decoration/css-sprite.png) no-repeat top left;
+	margin-top:-6px;
+	width:36px;
+	height:36px;
+	padding-right:3px;
+}
+.circle1,
+.circle1_blue,
+.circle1_darkblue,
+.circle1_gold,
+.circle1_green,
+.circle1_grey,
+.circle1_lightblue,
+.circle1_lightgreen,
+.circle1_lightorange,
+.circle1_lightpink,
+.circle1_lilac,
+.circle1_mocha,
+.circle1_orange,
+.circle1_pink,
+.circle1_red,
+.circle1_silver,
+.circle1_yellow,
+.circle2,
+.circle2_blue,
+.circle2_darkblue,
+.circle2_gold,
+.circle2_green,
+.circle2_grey,
+.circle2_lightblue,
+.circle2_lightgreen,
+.circle2_lightorange,
+.circle2_lightpink,
+.circle2_lilac,
+.circle2_mocha,
+.circle2_orange,
+.circle2_pink,
+.circle2_red,
+.circle2_silver,
+.circle2_yellow,
+.square1,
+.square1_blue,
+.square1_darkblue,
+.square1_gold,
+.square1_green,
+.square1_grey,
+.square1_lightblue,
+.square1_lightgreen,
+.square1_lightorange,
+.square1_lightpink,
+.square1_lilac,
+.square1_mocha,
+.square1_orange,
+.square1_pink,
+.square1_red,
+.square1_silver,
+.square1_yellow,
+.square2,
+.square2_blue,
+.square2_darkblue,
+.square2_gold,
+.square2_green,
+.square2_grey,
+.square2_lightblue,
+.square2_lightgreen,
+.square2_lightorange,
+.square2_lightpink,
+.square2_lilac,
+.square2_mocha,
+.square2_orange,
+.square2_pink,
+.square2_red,
+.square2_silver,
+.square2_yellow{
+	margin-top:22px;
+	margin-bottom:-22px;
+	clear:both;
+	display:block;
+	font-size:17px;
+	font-weight:bold;
+	line-height:174%;
+}
+.circle1_blue:before{background-position: -68px -612px;}
+.circle1_darkblue:before{background-position: -68px -658px;}
+.circle1_gold:before{background-position: -68px -704px;}
+.circle1_green:before{background-position: -68px -750px;}
+.circle1_grey:before{background-position: -68px -796px;}
+.circle1:before,
+.circle1_lightblue:before{background-position: -68px -842px;}
+.circle1_lightgreen:before{background-position: -68px -888px;}
+.circle1_lightorange:before{background-position: -68px -934px;}
+.circle1_lightpink:before{background-position: -68px -980px;}
+.circle1_lilac:before{background-position: -68px -1026px;}
+.circle1_mocha:before{background-position: -68px -1072px;}
+.circle1_orange:before{background-position: -68px -1118px;}
+.circle1_pink:before{background-position: -68px -1164px;}
+.circle1_red:before{background-position: -68px -1210px;}
+.circle1_silver:before{background-position: -68px -1256px;}
+.circle1_yellow:before{background-position: -68px -1302px;}
+.circle2_blue:before{background-position: -68px -1348px;}
+.circle2_darkblue:before{background-position: -68px -1394px;}
+.circle2_gold:before{background-position: -68px -1440px;}
+.circle2_green:before{background-position: -68px -1486px;}
+.circle2_grey:before{background-position: -68px -1532px;}
+.circle2:before,
+.circle2_lightblue:before{background-position: -68px -1578px;}
+.circle2_lightgreen:before{background-position: -68px -1624px;}
+.circle2_lightorange:before{background-position: -68px -1670px;}
+.circle2_lightpink:before{background-position: -68px -1716px;}
+.circle2_lilac:before{background-position: -68px -1762px;}
+.circle2_mocha:before{background-position: -68px -1808px;}
+.circle2_orange:before{background-position: -68px -1854px;}
+.circle2_pink:before{background-position: -68px -1900px;}
+.circle2_red:before{background-position: -68px -1946px;}
+.circle2_silver:before{background-position: -136px 0;}
+.circle2_yellow:before{background-position: -136px -46px;}
+.square1_blue:before{background-position: -340px -828px;}
+.square1_darkblue:before{background-position: -340px -874px;}
+.square1_gold:before{background-position: -340px -920px;}
+.square1_green:before{background-position: -340px -966px;}
+.square1_grey:before{background-position: -340px -1012px;}
+.square1:before,
+.square1_lightblue:before{background-position: -340px -1058px;}
+.square1_lightgreen:before{background-position: -340px -1104px;}
+.square1_lightorange:before{background-position: -340px -1150px;}
+.square1_lightpink:before{background-position: -340px -1196px;}
+.square1_lilac:before{background-position: -340px -1242px;}
+.square1_mocha:before{background-position: -340px -1288px;}
+.square1_orange:before{background-position: -340px -1334px;}
+.square1_pink:before{background-position: -340px -1380px;}
+.square1_red:before{background-position: -340px -1426px;}
+.square1_silver:before{background-position: -340px -1472px;}
+.square1_yellow:before{background-position: -340px -1518px;}
+.square2_blue:before{background-position: -340px -1564px;}
+.square2_darkblue:before{background-position: -340px -1610px;}
+.square2_gold:before{background-position: -340px -1656px;}
+.square2_green:before{background-position: -340px -1702px;}
+.square2_grey:before{background-position: -340px -1748px;}
+.square2:before,
+.square2_lightblue:before{background-position: -340px -1794px;}
+.square2_lightgreen:before{background-position: -340px -1840px;}
+.square2_lightorange:before{background-position: -340px -1886px;}
+.square2_lightpink:before{background-position: -340px -1932px;}
+.square2_lilac:before{background-position: -340px -1978px;}
+.square2_mocha:before{background-position: -408px 0;}
+.square2_orange:before{background-position: -408px -46px;}
+.square2_pink:before{background-position: -408px -92px;}
+.square2_red:before{background-position: -408px -138px;}
+.square2_silver:before{background-position: -408px -184px;}
+.square2_yellow:before{background-position: -408px -230px;}
+/* ---- Circle,Square end ---- */
+
+
+
+/* ---- Badge ---- */
+.star:before,
+.star_blue:before,
+.star_darkblue:before,
+.star_gold:before,
+.star_green:before,
+.star_grey:before,
+.star_lightblue:before,
+.star_lightgreen:before,
+.star_lightorange:before,
+.star_lightpink:before,
+.star_lilac:before,
+.star_mocha:before,
+.star_orange:before,
+.star_pink:before,
+.star_red:before,
+.star_silver:before,
+.star_yellow:before {
+	display:block;
+	float:left;
+	content:"";
+    background: url(../img/option-decoration/css-sprite.png) no-repeat top left;
+	margin-top:-7px;
+	width:48px;
+	height:48px;
+	padding-right:5px;
+}
+.star,
+.star_blue,
+.star_darkblue,
+.star_gold,
+.star_green,
+.star_grey,
+.star_lightblue,
+.star_lightgreen,
+.star_lightorange,
+.star_lightpink,
+.star_lilac,
+.star_mocha,
+.star_orange,
+.star_pink,
+.star_red,
+.star_silver,
+.star_yellow {
+	margin-top:30px;
+	margin-bottom:-22px;
+	clear:both;
+	display:block;
+	font-size:22px;
+	font-weight:bold;
+	line-height:174%;
+}
+.star:before,
+.star_blue:before{background-position: -408px -276px;}
+.star_darkblue:before{background-position: -408px -334px;}
+.star_gold:before{background-position: -408px -392px;}
+.star_green:before{background-position: -408px -450px;}
+.star_grey:before{background-position: -408px -508px;}
+.star_lightblue:before{background-position: -408px -566px;}
+.star_lightgreen:before{background-position: -408px -624px;}
+.star_lightorange:before{background-position: -408px -682px;}
+.star_lightpink:before{background-position: -408px -740px;}
+.star_lilac:before{background-position: -408px -798px;}
+.star_mocha:before{background-position: -408px -856px;}
+.star_orange:before{background-position: -408px -914px;}
+.star_pink:before{background-position: -408px -972px;}
+.star_red:before{background-position: -408px -1030px;}
+.star_silver:before{background-position: -408px -1088px;}
+.star_yellow:before{background-position: -408px -1146px;}
+/* ---- Badge end ---- */
+
+
+
+/* ---- Currency ---- */
+.comma,
+.comma_m,
+.comma_s,
+.int0,
+.int0_m,
+.int0_s,
+.int1,
+.int1_m,
+.int1_s,
+.int2,
+.int2_m,
+.int2_s,
+.int3,
+.int3_m,
+.int3_s,
+.int4,
+.int4_m,
+.int4_s,
+.int5,
+.int5_m,
+.int5_s,
+.int6,
+.int6_m,
+.int6_s,
+.int7,
+.int7_m,
+.int7_s,
+.int8,
+.int8_m,
+.int8_s,
+.int9,
+.int9_m,
+.int9_s,
+.yen,
+.yen_m,
+.yen_s {
+	background: url(../img/option-decoration/css-sprite.png) no-repeat top left;
+	margin:0;
+	padding:0;
+	float:left;
+	text-indent:-9999px;
+	outline:none;
+}
+.comma{ background-position: -136px -92px; width: 20px; height: 57px;}
+.comma_m{ background-position: -136px -159px; width: 18px; height: 47px;}
+.comma_s{ background-position: -136px -216px; width: 15px; height: 31px;}
+.int0{ background-position: -136px -993px; width: 39px; height: 52px;}
+.int0_m{ background-position: -136px -1055px; width: 33px; height: 44px;}
+.int0_s{ background-position: -136px -1109px; width: 25px; height: 31px;}
+.int1{ background-position: -136px -1150px; width: 30px; height: 51px;}
+.int1_m{ background-position: -136px -1211px; width: 26px; height: 43px;}
+.int1_s{ background-position: -136px -1264px; width: 20px; height: 31px;}
+.int2{ background-position: -136px -1305px; width: 40px; height: 51px;}
+.int2_m{ background-position: -136px -1366px; width: 34px; height: 43px;}
+.int2_s{ background-position: -136px -1419px; width: 25px; height: 31px;}
+.int3{ background-position: -136px -1460px; width: 39px; height: 52px;}
+.int3_m{ background-position: -136px -1522px; width: 33px; height: 44px;}
+.int3_s{ background-position: -136px -1576px; width: 25px; height: 31px;}
+.int4{ background-position: -136px -1617px; width: 42px; height: 51px;}
+.int4_m{ background-position: -136px -1678px; width: 35px; height: 43px;}
+.int4_s{ background-position: -136px -1731px; width: 25px; height: 30px;}
+.int5{ background-position: -136px -1771px; width: 40px; height: 51px;}
+.int5_m{ background-position: -136px -1832px; width: 34px; height: 44px;}
+.int5_s{ background-position: -136px -1886px; width: 25px; height: 30px;}
+.int6{ background-position: -136px -1926px; width: 40px; height: 52px;}
+.int6_m{ background-position: -136px -1988px; width: 34px; height: 44px;}
+.int6_s{ background-position: -204px 0; width: 25px; height: 31px;}
+.int7{ background-position: -204px -41px; width: 39px; height: 50px;}
+.int7_m{ background-position: -204px -101px; width: 33px; height: 43px;}
+.int7_s{ background-position: -204px -154px; width: 25px; height: 30px;}
+.int8{ background-position: -204px -194px; width: 39px; height: 52px;}
+.int8_m{ background-position: -204px -256px; width: 33px; height: 44px;}
+.int8_s{ background-position: -204px -310px; width: 25px; height: 31px;}
+.int9{ background-position: -204px -351px; width: 39px; height: 52px;}
+.int9_m{ background-position: -204px -413px; width: 34px; height: 44px;}
+.int9_s{ background-position: -204px -467px; width: 25px; height: 31px;}
+.yen{ background-position: -408px -1780px; width: 137px; height: 50px;clear:right;}
+.yen_m{ background-position: -408px -1840px; width: 112px; height: 42px;clear:right;}
+.yen_s{ background-position: -408px -1892px; width: 72px; height: 30px;clear:right;}
+/* ---- Currency end ---- */
+/*----------------------------------------------
+ End of option decoration with images
+ ---------------------------------------------*/

@@ -1,0 +1,1260 @@
+.checked,
+.checked_blue,
+.checked_green,
+.checked_red{
+	padding:10px 0 4px 35px!important;
+	margin:14px 0 2px 0!important;
+	clear:both;
+	display:block;
+	font-size:15px;
+	font-weight:bold;
+	line-height:145%;
+}
+.checked, .checked_blue{
+	background:url(../../img/option-decoration/checked_blue.png) left top no-repeat;
+}
+.checked_green{
+	background:url(../../img/option-decoration/checked_green.png) left top no-repeat;
+}
+.checked_red{
+	background:url(../../img/option-decoration/checked_red.png) left top no-repeat;
+}
+
+.chuui, .chuumoku, .check, .point, .matome, .juyou, .youten, .new, .osusume, .tips, .chuui_lightblue, .chuui_lightpink, .chuui_lightorange, .chuui_lightgreen, .chuui_blue, .chuui_pink, .chuui_orange, .chuui_green, .chuui_yellow, .chuui_red, .chuui_grey, .chuui_lilac, .chuui_gold, .chuui_silver, .chuui_mocha, .chuui_darkblue, .chuumoku_lightblue, .chuumoku_lightpink, .chuumoku_lightorange, .chuumoku_lightgreen, .chuumoku_blue, .chuumoku_pink, .chuumoku_orange, .chuumoku_green, .chuumoku_yellow, .chuumoku_red, .chuumoku_grey, .chuumoku_lilac, .chuumoku_gold, .chuumoku_silver, .chuumoku_mocha, .chuumoku_darkblue, .check_lightblue, .check_lightpink, .check_lightorange, .check_lightgreen, .check_blue, .check_pink, .check_orange, .check_green, .check_yellow, .check_red, .check_grey, .check_lilac, .check_gold, .check_silver, .check_mocha, .check_darkblue, .point_lightblue, .point_lightpink, .point_lightorange, .point_lightgreen, .point_blue, .point_pink, .point_orange, .point_green, .point_yellow, .point_red, .point_grey, .point_lilac, .point_gold, .point_silver, .point_mocha, .point_darkblue, .matome_lightblue, .matome_lightpink, .matome_lightorange, .matome_lightgreen, .matome_blue, .matome_pink, .matome_orange, .matome_green, .matome_yellow, .matome_red, .matome_grey, .matome_lilac, .matome_gold, .matome_silver, .matome_mocha, .matome_darkblue, .juyou_lightblue, .juyou_lightpink, .juyou_lightorange, .juyou_lightgreen, .juyou_blue, .juyou_pink, .juyou_orange, .juyou_green, .juyou_yellow, .juyou_red, .juyou_grey, .juyou_lilac, .juyou_gold, .juyou_silver, .juyou_mocha, .juyou_darkblue, .youten_lightblue, .youten_lightpink, .youten_lightorange, .youten_lightgreen, .youten_blue, .youten_pink, .youten_orange, .youten_green, .youten_yellow, .youten_red, .youten_grey, .youten_lilac, .youten_gold, .youten_silver, .youten_mocha, .youten_darkblue, .new_lightblue, .new_lightpink, .new_lightorange, .new_lightgreen, .new_blue, .new_pink, .new_orange, .new_green, .new_yellow, .new_red, .new_grey, .new_lilac, .new_gold, .new_silver, .new_mocha, .new_darkblue, .osusume_lightblue, .osusume_lightpink, .osusume_lightorange, .osusume_lightgreen, .osusume_blue, .osusume_pink, .osusume_orange, .osusume_green, .osusume_yellow, .osusume_red, .osusume_grey, .osusume_lilac, .osusume_gold, .osusume_silver, .osusume_mocha, .osusume_darkblue, .tips_lightblue, .tips_lightpink, .tips_lightorange, .tips_lightgreen, .tips_blue, .tips_pink, .tips_orange, .tips_green, .tips_yellow, .tips_red, .tips_grey, .tips_lilac, .tips_gold, .tips_silver, .tips_mocha, .tips_darkblue{
+	padding:2px 0 2px 62px!important;
+	margin:14px 0 4px 0!important;
+	clear:both;
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+	line-height:145%;
+}
+
+.chuui_lightblue{
+background:url(../../img/option-decoration/attention1_lightblue.png) left top no-repeat;
+}
+.chuui_lightpink{
+background:url(../../img/option-decoration/attention1_lightpink.png) left top no-repeat;
+}
+.chuui_lightorange{
+background:url(../../img/option-decoration/attention1_lightorange.png) left top no-repeat;
+}
+.chuui_lightgreen{
+background:url(../../img/option-decoration/attention1_lightgreen.png) left top no-repeat;
+}
+.chuui_blue{
+background:url(../../img/option-decoration/attention1_blue.png) left top no-repeat;
+}
+.chuui_pink{
+background:url(../../img/option-decoration/attention1_pink.png) left top no-repeat;
+}
+.chuui_orange{
+background:url(../../img/option-decoration/attention1_orange.png) left top no-repeat;
+}
+.chuui_green{
+background:url(../../img/option-decoration/attention1_green.png) left top no-repeat;
+}
+.chuui_yellow{
+background:url(../../img/option-decoration/attention1_yellow.png) left top no-repeat;
+}
+.chuui,
+.chuui_red{
+background:url(../../img/option-decoration/attention1_red.png) left top no-repeat;
+}
+.chuui_grey{
+background:url(../../img/option-decoration/attention1_grey.png) left top no-repeat;
+}
+.chuui_lilac{
+background:url(../../img/option-decoration/attention1_lilac.png) left top no-repeat;
+}
+.chuui_silver{
+background:url(../../img/option-decoration/attention1_silver.png) left top no-repeat;
+}
+.chuui_gold{
+background:url(../../img/option-decoration/attention1_gold.png) left top no-repeat;
+}
+.chuui_mocha{
+background:url(../../img/option-decoration/attention1_mocha.png) left top no-repeat;
+}
+.chuui_darkblue{
+background:url(../../img/option-decoration/attention1_darkblue.png) left top no-repeat;
+}
+
+
+.chuumoku_lightblue{
+background:url(../../img/option-decoration/attention2_lightblue.png) left top no-repeat;
+}
+.chuumoku_lightpink{
+background:url(../../img/option-decoration/attention2_lightpink.png) left top no-repeat;
+}
+.chuumoku,
+.chuumoku_lightorange{
+background:url(../../img/option-decoration/attention2_lightorange.png) left top no-repeat;
+}
+.chuumoku_lightgreen{
+background:url(../../img/option-decoration/attention2_lightgreen.png) left top no-repeat;
+}
+.chuumoku_blue{
+background:url(../../img/option-decoration/attention2_blue.png) left top no-repeat;
+}
+.chuumoku_pink{
+background:url(../../img/option-decoration/attention2_pink.png) left top no-repeat;
+}
+.chuumoku_orange{
+background:url(../../img/option-decoration/attention2_orange.png) left top no-repeat;
+}
+.chuumoku_green{
+background:url(../../img/option-decoration/attention2_green.png) left top no-repeat;
+}
+.chuumoku_yellow{
+background:url(../../img/option-decoration/attention2_yellow.png) left top no-repeat;
+}
+.chuumoku_red{
+background:url(../../img/option-decoration/attention2_red.png) left top no-repeat;
+}
+.chuumoku_grey{
+background:url(../../img/option-decoration/attention2_grey.png) left top no-repeat;
+}
+.chuumoku_lilac{
+background:url(../../img/option-decoration/attention2_lilac.png) left top no-repeat;
+}
+.chuumoku_silver{
+background:url(../../img/option-decoration/attention2_silver.png) left top no-repeat;
+}
+.chuumoku_gold{
+background:url(../../img/option-decoration/attention2_gold.png) left top no-repeat;
+}
+.chuumoku_mocha{
+background:url(../../img/option-decoration/attention2_mocha.png) left top no-repeat;
+}
+.chuumoku_darkblue{
+background:url(../../img/option-decoration/attention2_darkblue.png) left top no-repeat;
+}
+
+
+.check_lightblue{
+background:url(../../img/option-decoration/attention3_lightblue.png) left top no-repeat;
+}
+.check_lightpink{
+background:url(../../img/option-decoration/attention3_lightpink.png) left top no-repeat;
+}
+.check_lightorange{
+background:url(../../img/option-decoration/attention3_lightorange.png) left top no-repeat;
+}
+.check_lightgreen{
+background:url(../../img/option-decoration/attention3_lightgreen.png) left top no-repeat;
+}
+.check,
+.check_blue{
+background:url(../../img/option-decoration/attention3_blue.png) left top no-repeat;
+}
+.check_pink{
+background:url(../../img/option-decoration/attention3_pink.png) left top no-repeat;
+}
+.check_orange{
+background:url(../../img/option-decoration/attention3_orange.png) left top no-repeat;
+}
+.check_green{
+background:url(../../img/option-decoration/attention3_green.png) left top no-repeat;
+}
+.check_yellow{
+background:url(../../img/option-decoration/attention3_yellow.png) left top no-repeat;
+}
+.check_red{
+background:url(../../img/option-decoration/attention3_red.png) left top no-repeat;
+} 
+.check_grey{
+background:url(../../img/option-decoration/attention3_grey.png) left top no-repeat;
+}
+.check_lilac{
+background:url(../../img/option-decoration/attention3_lilac.png) left top no-repeat;
+}
+.check_silver{
+background:url(../../img/option-decoration/attention3_silver.png) left top no-repeat;
+}
+.check_gold{
+background:url(../../img/option-decoration/attention3_gold.png) left top no-repeat;
+}
+.check_mocha{
+background:url(../../img/option-decoration/attention3_mocha.png) left top no-repeat;
+}
+.check_darkblue{
+background:url(../../img/option-decoration/attention3_darkblue.png) left top no-repeat;
+}
+
+
+.point_lightblue{
+background:url(../../img/option-decoration/attention4_lightblue.png) left top no-repeat;
+}
+.point,
+.point_lightpink{
+background:url(../../img/option-decoration/attention4_lightpink.png) left top no-repeat;
+}
+.point_lightorange{
+background:url(../../img/option-decoration/attention4_lightorange.png) left top no-repeat;
+}
+.point_lightgreen{
+background:url(../../img/option-decoration/attention4_lightgreen.png) left top no-repeat;
+}
+.point_blue{
+background:url(../../img/option-decoration/attention4_blue.png) left top no-repeat;
+}
+.point_pink{
+background:url(../../img/option-decoration/attention4_pink.png) left top no-repeat;
+}
+.point_orange{
+background:url(../../img/option-decoration/attention4_orange.png) left top no-repeat;
+}
+.point_green{
+background:url(../../img/option-decoration/attention4_green.png) left top no-repeat;
+}
+.point_yellow{
+background:url(../../img/option-decoration/attention4_yellow.png) left top no-repeat;
+}
+.point_red{
+background:url(../../img/option-decoration/attention4_red.png) left top no-repeat;
+}
+.point_grey{
+background:url(../../img/option-decoration/attention4_grey.png) left top no-repeat;
+}
+.point_lilac{
+background:url(../../img/option-decoration/attention4_lilac.png) left top no-repeat;
+}
+.point_silver{
+background:url(../../img/option-decoration/attention4_silver.png) left top no-repeat;
+}
+.point_gold{
+background:url(../../img/option-decoration/attention4_gold.png) left top no-repeat;
+}
+.point_mocha{
+background:url(../../img/option-decoration/attention4_mocha.png) left top no-repeat;
+}
+.point_darkblue{
+background:url(../../img/option-decoration/attention4_darkblue.png) left top no-repeat;
+}
+
+
+.matome_lightblue{
+background:url(../../img/option-decoration/attention5_lightblue.png) left top no-repeat;
+}
+.matome_lightpink{
+background:url(../../img/option-decoration/attention5_lightpink.png) left top no-repeat;
+}
+.matome_lightorange{
+background:url(../../img/option-decoration/attention5_lightorange.png) left top no-repeat;
+}
+.matome_lightgreen{
+background:url(../../img/option-decoration/attention5_lightgreen.png) left top no-repeat;
+}
+.matome_blue{
+background:url(../../img/option-decoration/attention5_blue.png) left top no-repeat;
+}
+.matome_pink{
+background:url(../../img/option-decoration/attention5_pink.png) left top no-repeat;
+}
+.matome_orange{
+background:url(../../img/option-decoration/attention5_orange.png) left top no-repeat;
+}
+.matome,
+.matome_green{
+background:url(../../img/option-decoration/attention5_green.png) left top no-repeat;
+}
+.matome_yellow{
+background:url(../../img/option-decoration/attention5_yellow.png) left top no-repeat;
+}
+.matome_red{
+background:url(../../img/option-decoration/attention5_red.png) left top no-repeat;
+}
+.matome_grey{
+background:url(../../img/option-decoration/attention5_grey.png) left top no-repeat;
+}
+.matome_lilac{
+background:url(../../img/option-decoration/attention5_lilac.png) left top no-repeat;
+}
+.matome_silver{
+background:url(../../img/option-decoration/attention5_silver.png) left top no-repeat;
+}
+.matome_gold{
+background:url(../../img/option-decoration/attention5_gold.png) left top no-repeat;
+}
+.matome_mocha{
+background:url(../../img/option-decoration/attention5_mocha.png) left top no-repeat;
+}
+.matome_darkblue{
+background:url(../../img/option-decoration/attention5_darkblue.png) left top no-repeat;
+}
+
+
+.juyou_lightblue{
+background:url(../../img/option-decoration/attention6_lightblue.png) left top no-repeat;
+}
+.juyou_lightpink{
+background:url(../../img/option-decoration/attention6_lightpink.png) left top no-repeat;
+}
+.juyou_lightorange{
+background:url(../../img/option-decoration/attention6_lightorange.png) left top no-repeat;
+}
+.juyou_lightgreen{
+background:url(../../img/option-decoration/attention6_lightgreen.png) left top no-repeat;
+}
+.juyou_blue{
+background:url(../../img/option-decoration/attention6_blue.png) left top no-repeat;
+}
+.juyou,
+.juyou_pink{
+background:url(../../img/option-decoration/attention6_pink.png) left top no-repeat;
+}
+.juyou_orange{
+background:url(../../img/option-decoration/attention6_orange.png) left top no-repeat;
+}
+.juyou_green{
+background:url(../../img/option-decoration/attention6_green.png) left top no-repeat;
+}
+.juyou_yellow{
+background:url(../../img/option-decoration/attention6_yellow.png) left top no-repeat;
+}
+.juyou_red{
+background:url(../../img/option-decoration/attention6_red.png) left top no-repeat;
+}
+.juyou_grey{
+background:url(../../img/option-decoration/attention6_grey.png) left top no-repeat;
+}
+.juyou_lilac{
+background:url(../../img/option-decoration/attention6_lilac.png) left top no-repeat;
+}
+.juyou_silver{
+background:url(../../img/option-decoration/attention6_silver.png) left top no-repeat;
+}
+.juyou_gold{
+background:url(../../img/option-decoration/attention6_gold.png) left top no-repeat;
+}
+.juyou_mocha{
+background:url(../../img/option-decoration/attention6_mocha.png) left top no-repeat;
+}
+.juyou_darkblue{
+background:url(../../img/option-decoration/attention6_darkblue.png) left top no-repeat;
+}
+
+.youten_lightblue{
+background:url(../../img/option-decoration/attention7_lightblue.png) left top no-repeat;
+}
+.youten_lightpink{
+background:url(../../img/option-decoration/attention7_lightpink.png) left top no-repeat;
+}
+.youten_lightorange{
+background:url(../../img/option-decoration/attention7_lightorange.png) left top no-repeat;
+}
+.youten_lightgreen{
+background:url(../../img/option-decoration/attention7_lightgreen.png) left top no-repeat;
+}
+.youten_blue{
+background:url(../../img/option-decoration/attention7_blue.png) left top no-repeat;
+}
+.youten_pink{
+background:url(../../img/option-decoration/attention7_pink.png) left top no-repeat;
+}
+.youten_orange{
+background:url(../../img/option-decoration/attention7_orange.png) left top no-repeat;
+}
+.youten_green{
+background:url(../../img/option-decoration/attention7_green.png) left top no-repeat;
+}
+.youten_yellow{
+background:url(../../img/option-decoration/attention7_yellow.png) left top no-repeat;
+}
+.youten_red{
+background:url(../../img/option-decoration/attention7_red.png) left top no-repeat;
+}
+.youten_grey{
+background:url(../../img/option-decoration/attention7_grey.png) left top no-repeat;
+}
+.youten,
+.youten_lilac{
+background:url(../../img/option-decoration/attention7_lilac.png) left top no-repeat;
+}
+.youten_silver{
+background:url(../../img/option-decoration/attention7_silver.png) left top no-repeat;
+}
+.youten_gold{
+background:url(../../img/option-decoration/attention7_gold.png) left top no-repeat;
+}
+.youten_mocha{
+background:url(../../img/option-decoration/attention7_mocha.png) left top no-repeat;
+}
+.youten_darkblue{
+background:url(../../img/option-decoration/attention7_darkblue.png) left top no-repeat;
+}
+
+.new,
+.new_lightblue{
+background:url(../../img/option-decoration/attention8_lightblue.png) left top no-repeat;
+}
+.new_lightpink{
+background:url(../../img/option-decoration/attention8_lightpink.png) left top no-repeat;
+}
+.new_lightorange{
+background:url(../../img/option-decoration/attention8_lightorange.png) left top no-repeat;
+}
+.new_lightgreen{
+background:url(../../img/option-decoration/attention8_lightgreen.png) left top no-repeat;
+}
+.new_blue{
+background:url(../../img/option-decoration/attention8_blue.png) left top no-repeat;
+}
+.new_pink{
+background:url(../../img/option-decoration/attention8_pink.png) left top no-repeat;
+}
+.new_orange{
+background:url(../../img/option-decoration/attention8_orange.png) left top no-repeat;
+}
+.new_green{
+background:url(../../img/option-decoration/attention8_green.png) left top no-repeat;
+}
+.new_yellow{
+background:url(../../img/option-decoration/attention8_yellow.png) left top no-repeat;
+}
+.new_red{
+background:url(../../img/option-decoration/attention8_red.png) left top no-repeat;
+}
+.new_grey{
+background:url(../../img/option-decoration/attention8_grey.png) left top no-repeat;
+}
+.new_lilac{
+background:url(../../img/option-decoration/attention8_lilac.png) left top no-repeat;
+}
+.new_silver{
+background:url(../../img/option-decoration/attention8_silver.png) left top no-repeat;
+}
+.new_gold{
+background:url(../../img/option-decoration/attention8_gold.png) left top no-repeat;
+}
+.new_mocha{
+background:url(../../img/option-decoration/attention8_mocha.png) left top no-repeat;
+}
+.new_darkblue{
+background:url(../../img/option-decoration/attention8_darkblue.png) left top no-repeat;
+}
+
+
+.osusume_lightblue{
+background:url(../../img/option-decoration/attention9_lightblue.png) left top no-repeat;
+}
+.osusume_lightpink{
+background:url(../../img/option-decoration/attention9_lightpink.png) left top no-repeat;
+}
+.osusume_lightorange{
+background:url(../../img/option-decoration/attention9_lightorange.png) left top no-repeat;
+}
+.osusume_lightgreen{
+background:url(../../img/option-decoration/attention9_lightgreen.png) left top no-repeat;
+}
+.osusume_blue{
+background:url(../../img/option-decoration/attention9_blue.png) left top no-repeat;
+}
+.osusume_pink{
+background:url(../../img/option-decoration/attention9_pink.png) left top no-repeat;
+}
+.osusume,
+.osusume_orange{
+background:url(../../img/option-decoration/attention9_orange.png) left top no-repeat;
+}
+.osusume_green{
+background:url(../../img/option-decoration/attention9_green.png) left top no-repeat;
+}
+.osusume_yellow{
+background:url(../../img/option-decoration/attention9_yellow.png) left top no-repeat;
+}
+.osusume_red{
+background:url(../../img/option-decoration/attention9_red.png) left top no-repeat;
+}
+.osusume_grey{
+background:url(../../img/option-decoration/attention9_grey.png) left top no-repeat;
+}
+.osusume_lilac{
+background:url(../../img/option-decoration/attention9_lilac.png) left top no-repeat;
+}
+.osusume_silver{
+background:url(../../img/option-decoration/attention9_silver.png) left top no-repeat;
+}
+.osusume_gold{
+background:url(../../img/option-decoration/attention9_gold.png) left top no-repeat;
+}
+.osusume_mocha{
+background:url(../../img/option-decoration/attention9_mocha.png) left top no-repeat;
+}
+.osusume_darkblue{
+background:url(../../img/option-decoration/attention9_darkblue.png) left top no-repeat;
+}
+
+
+.tips_lightblue{
+background:url(../../img/option-decoration/attention10_lightblue.png) left top no-repeat;
+}
+.tips_lightpink{
+background:url(../../img/option-decoration/attention10_lightpink.png) left top no-repeat;
+}
+.tips_lightorange{
+background:url(../../img/option-decoration/attention10_lightorange.png) left top no-repeat;
+}
+.tips_lightgreen{
+background:url(../../img/option-decoration/attention10_lightgreen.png) left top no-repeat;
+}
+.tips_blue{
+background:url(../../img/option-decoration/attention10_blue.png) left top no-repeat;
+}
+.tips_pink{
+background:url(../../img/option-decoration/attention10_pink.png) left top no-repeat;
+}
+.tips_orange{
+background:url(../../img/option-decoration/attention10_orange.png) left top no-repeat;
+}
+.tips_green{
+background:url(../../img/option-decoration/attention10_green.png) left top no-repeat;
+}
+.tips_yellow{
+background:url(../../img/option-decoration/attention10_yellow.png) left top no-repeat;
+}
+.tips_red{
+background:url(../../img/option-decoration/attention10_red.png) left top no-repeat;
+}
+.tips_grey{
+background:url(../../img/option-decoration/attention10_grey.png) left top no-repeat;
+}
+.tips_lilac{
+background:url(../../img/option-decoration/attention10_lilac.png) left top no-repeat;
+}
+.tips_silver{
+background:url(../../img/option-decoration/attention10_silver.png) left top no-repeat;
+}
+.tips_gold{
+background:url(../../img/option-decoration/attention10_gold.png) left top no-repeat;
+}
+.tips_mocha{
+background:url(../../img/option-decoration/attention10_mocha.png) left top no-repeat;
+}
+.tips,
+.tips_darkblue{
+background:url(../../img/option-decoration/attention10_darkblue.png) left top no-repeat;
+}
+
+
+.star,.star_lightblue, .star_lightpink, .star_lightorange, .star_lightgreen, .star_blue, .star_b, .star_pink, .star_p, .star_orange, .star_green, .star_g, .star_yellow, .star_y, .star_red, .star_r, .star_grey, .star_lilac, .star_gold, .star_silver, .star_mocha, .star_darkblue{
+	padding:12px 0 8px 50px!important;
+	margin:14px 0 8px 0!important;
+	clear:both;
+	display:block;
+	font-size:17px;
+	font-weight:bold;
+	line-height:145%;
+}
+.star_lightblue{
+background:url(../../img/option-decoration/star_lightblue.png) left top no-repeat;
+}
+.star_lightpink{
+background:url(../../img/option-decoration/star_lightpink.png) left top no-repeat;
+}
+.star_lightorange{
+background:url(../../img/option-decoration/star_lightorange.png) left top no-repeat;
+}
+.star_lightgreen{
+background:url(../../img/option-decoration/star_lightgreen.png) left top no-repeat;
+}
+.star,.star_b, .star_blue{
+background:url(../../img/option-decoration/star_blue.png) left top no-repeat;
+}
+.star_p, .star_pink{
+background:url(../../img/option-decoration/star_pink.png) left top no-repeat;
+}
+.star_orange{
+background:url(../../img/option-decoration/star_orange.png) left top no-repeat;
+}
+.star_g, .star_green{
+background:url(../../img/option-decoration/star_green.png) left top no-repeat;
+}
+.star_y, .star_yellow{
+background:url(../../img/option-decoration/star_yellow.png) left top no-repeat;
+}
+.star_r, .star_red{
+background:url(../../img/option-decoration/star_red.png) left top no-repeat;
+}
+.star_grey{
+background:url(../../img/option-decoration/star_grey.png) left top no-repeat;
+}
+.star_lilac{
+background:url(../../img/option-decoration/star_lilac.png) left top no-repeat;
+}
+.star_silver{
+background:url(../../img/option-decoration/star_silver.png) left top no-repeat;
+}
+.star_gold{
+background:url(../../img/option-decoration/star_gold.png) left top no-repeat;
+}
+.star_mocha{
+background:url(../../img/option-decoration/star_mocha.png) left top no-repeat;
+}
+.star_darkblue{
+background:url(../../img/option-decoration/star_darkblue.png) left top no-repeat;
+}
+
+
+.qmark, .qmark_lightblue, .qmark_lightpink, .qmark_lightorange, .qmark_lightgreen, .qmark_blue, .qmark_b, .qmark_pink, .qmark_p, .qmark_orange, .qmark_green, .qmark_g, .qmark_yellow, .qmark_y, .qmark_red, .qmark_r, .qmark_grey, .qmark_lilac, .qmark_gold, .qmark_silver, .qmark_mocha, .qmark_darkblue,.ex, .ex_lightblue, .ex_lightpink, .ex_lightorange, .ex_lightgreen, .ex_blue, .ex_pink, .ex_orange, .ex_green, .ex_yellow, .ex_red, .ex_grey, .ex_lilac, .ex_gold, .ex_silver, .ex_mocha, .ex_darkblue,.q, .q_lightblue, .q_lightpink, .q_lightorange, .q_lightgreen, .q_blue, .q_b, .q_pink, .q_p, .q_orange, .q_green, .q_g, .q_yellow, .q_y, .q_red, .q_r, .q_grey, .q_lilac, .q_gold, .q_silver, .q_mocha, .q_darkblue,.a, .a_lightblue, .a_lightpink, .a_lightorange, .a_lightgreen, .a_blue, .a_b, .a_pink, .a_p, .a_orange, .a_green, .a_g, .a_yellow, .a_y, .a_red, .a_r, .a_grey, .a_lilac, .a_gold, .a_silver, .a_mocha, .a_darkblue{
+	padding:16px 0 2px 42px!important;
+	margin:10px 0 2px 0!important;
+	clear:both;
+	display:block;
+	font-size:15px;
+	font-weight:bold;
+	line-height:145%;
+}
+.qmark_lightblue{
+background:url(../../img/option-decoration/qmark_lightblue.png) left top no-repeat;
+}
+.qmark_lightpink{
+background:url(../../img/option-decoration/qmark_lightpink.png) left top no-repeat;
+}
+.qmark_lightorange{
+background:url(../../img/option-decoration/qmark_lightorange.png) left top no-repeat;
+}
+.qmark_lightgreen{
+background:url(../../img/option-decoration/qmark_lightgreen.png) left top no-repeat;
+}
+.qmark_b, .qmark_blue{
+background:url(../../img/option-decoration/qmark_blue.png) left top no-repeat;
+}
+.qmark,.qmark_pink, .qmark_p{
+background:url(../../img/option-decoration/qmark_pink.png) left top no-repeat;
+}
+.qmark_orange{
+background:url(../../img/option-decoration/qmark_orange.png) left top no-repeat;
+}
+.qmark_green, .qmark_g{
+background:url(../../img/option-decoration/qmark_green.png) left top no-repeat;
+}
+.qmark_yellow, .qmark_y{
+background:url(../../img/option-decoration/qmark_yellow.png) left top no-repeat;
+}
+.qmark_red, .qmark_r{
+background:url(../../img/option-decoration/qmark_red.png) left top no-repeat;
+}
+.qmark_grey{
+background:url(../../img/option-decoration/qmark_grey.png) left top no-repeat;
+}
+.qmark_lilac{
+background:url(../../img/option-decoration/qmark_lilac.png) left top no-repeat;
+}
+.qmark_silver{
+background:url(../../img/option-decoration/qmark_silver.png) left top no-repeat;
+}
+.qmark_gold{
+background:url(../../img/option-decoration/qmark_gold.png) left top no-repeat;
+}
+.qmark_mocha{
+background:url(../../img/option-decoration/qmark_mocha.png) left top no-repeat;
+}
+.qmark_darkblue{
+background:url(../../img/option-decoration/qmark_darkblue.png) left top no-repeat;
+}
+
+
+.ex_lightblue{
+background:url(../../img/option-decoration/ex_lightblue.png) left top no-repeat;
+}
+.ex_lightpink{
+background:url(../../img/option-decoration/ex_lightpink.png) left top no-repeat;
+}
+.ex_lightorange{
+background:url(../../img/option-decoration/ex_lightorange.png) left top no-repeat;
+}
+.ex_lightgreen{
+background:url(../../img/option-decoration/ex_lightgreen.png) left top no-repeat;
+}
+.ex_blue{
+background:url(../../img/option-decoration/ex_blue.png) left top no-repeat;
+}
+.ex_pink{
+background:url(../../img/option-decoration/ex_pink.png) left top no-repeat;
+}
+.ex,.ex_orange{
+background:url(../../img/option-decoration/ex_orange.png) left top no-repeat;
+}
+.ex_green{
+background:url(../../img/option-decoration/ex_green.png) left top no-repeat;
+}
+.ex_yellow{
+background:url(../../img/option-decoration/ex_yellow.png) left top no-repeat;
+}
+.ex_red{
+background:url(../../img/option-decoration/ex_red.png) left top no-repeat;
+}
+.ex_grey{
+background:url(../../img/option-decoration/ex_grey.png) left top no-repeat;
+}
+.ex_lilac{
+background:url(../../img/option-decoration/ex_lilac.png) left top no-repeat;
+}
+.ex_silver{
+background:url(../../img/option-decoration/ex_silver.png) left top no-repeat;
+}
+.ex_gold{
+background:url(../../img/option-decoration/ex_gold.png) left top no-repeat;
+}
+.ex_mocha{
+background:url(../../img/option-decoration/ex_mocha.png) left top no-repeat;
+}
+.ex_darkblue{
+background:url(../../img/option-decoration/ex_darkblue.png) left top no-repeat;
+}
+
+.q_lightblue{
+background:url(../../img/option-decoration/q_lightblue.png) left top no-repeat;
+}
+.q_lightpink{
+background:url(../../img/option-decoration/q_lightpink.png) left top no-repeat;
+}
+.q_lightorange{
+background:url(../../img/option-decoration/q_lightorange.png) left top no-repeat;
+}
+.q_lightgreen{
+background:url(../../img/option-decoration/q_lightgreen.png) left top no-repeat;
+}
+.q_b, .q_blue{
+background:url(../../img/option-decoration/q_blue.png) left top no-repeat;
+}
+.q,.q_pink, .q_p{
+background:url(../../img/option-decoration/q_pink.png) left top no-repeat;
+}
+.q_orange{
+background:url(../../img/option-decoration/q_orange.png) left top no-repeat;
+}
+.q_green, .q_g{
+background:url(../../img/option-decoration/q_green.png) left top no-repeat;
+}
+.q_yellow, .q_y{
+background:url(../../img/option-decoration/q_yellow.png) left top no-repeat;
+}
+.q_red, .q_r{
+background:url(../../img/option-decoration/q_red.png) left top no-repeat;
+}
+.q_grey{
+background:url(../../img/option-decoration/q_grey.png) left top no-repeat;
+}
+.q_lilac{
+background:url(../../img/option-decoration/q_lilac.png) left top no-repeat;
+}
+.q_silver{
+background:url(../../img/option-decoration/q_silver.png) left top no-repeat;
+}
+.q_gold{
+background:url(../../img/option-decoration/q_gold.png) left top no-repeat;
+}
+.q_mocha{
+background:url(../../img/option-decoration/q_mocha.png) left top no-repeat;
+}
+.q_darkblue{
+background:url(../../img/option-decoration/q_darkblue.png) left top no-repeat;
+}
+
+.a_lightblue{
+background:url(../../img/option-decoration/a_lightblue.png) left top no-repeat;
+}
+.a_lightpink{
+background:url(../../img/option-decoration/a_lightpink.png) left top no-repeat;
+}
+.a_lightorange{
+background:url(../../img/option-decoration/a_lightorange.png) left top no-repeat;
+}
+.a_lightgreen{
+background:url(../../img/option-decoration/a_lightgreen.png) left top no-repeat;
+}
+.a_b, .a_blue{
+background:url(../../img/option-decoration/a_blue.png) left top no-repeat;
+}
+.a_pink, .a_p{
+background:url(../../img/option-decoration/a_pink.png) left top no-repeat;
+}
+.a_orange{
+background:url(../../img/option-decoration/a_orange.png) left top no-repeat;
+}
+.a,.a_green, .a_g{
+background:url(../../img/option-decoration/a_green.png) left top no-repeat;
+}
+.a_yellow, .a_y{
+background:url(../../img/option-decoration/a_yellow.png) left top no-repeat;
+}
+.a_red, .a_r{
+background:url(../../img/option-decoration/a_red.png) left top no-repeat;
+}
+.a_grey{
+background:url(../../img/option-decoration/a_grey.png) left top no-repeat;
+}
+.a_lilac{
+background:url(../../img/option-decoration/a_lilac.png) left top no-repeat;
+}
+.a_silver{
+background:url(../../img/option-decoration/a_silver.png) left top no-repeat;
+}
+.a_gold{
+background:url(../../img/option-decoration/a_gold.png) left top no-repeat;
+}
+.a_mocha{
+background:url(../../img/option-decoration/a_mocha.png) left top no-repeat;
+}
+.a_darkblue{
+background:url(../../img/option-decoration/a_darkblue.png) left top no-repeat;
+}
+
+
+.square1, .square1_lightblue, .square1_lightpink, .square1_lightorange, .square1_lightgreen, .square1_blue, .square1_pink, .square1_orange, .square1_green, .square1_yellow, .square1_red, .square1_grey, .square1_lilac, .square1_gold, .square1_silver, .square1_mocha, .square1_darkblue,.square2, .square2_lightblue, .square2_lightpink, .square2_lightorange, .square2_lightgreen, .square2_blue, .square2_pink, .square2_orange, .square2_green, .square2_yellow, .square2_red, .square2_grey, .square2_lilac, .square2_gold, .square2_silver, .square2_mocha, .square2_darkblue,.circle1, .circle1_lightblue, .circle1_lightpink, .circle1_lightorange, .circle1_lightgreen, .circle1_blue, .circle1_pink, .circle1_orange, .circle1_green, .circle1_yellow, .circle1_red, .circle1_grey, .circle1_lilac, .circle1_gold, .circle1_silver, .circle1_mocha, .circle1_darkblue,.circle2, .circle2_lightblue, .circle2_lightpink, .circle2_lightorange, .circle2_lightgreen, .circle2_blue, .circle2_pink, .circle2_orange, .circle2_green, .circle2_yellow, .circle2_red, .circle2_grey, .circle2_lilac, .circle2_gold, .circle2_silver, .circle2_mocha, .circle2_darkblue{
+	padding:7px 0 4px 38px!important;
+	margin:12px 0 4px 0!important;
+	clear:both;
+	display:block;
+	font-size:15px;
+	font-weight:bold;
+	line-height:145%;
+}
+
+.square1,.square1_lightblue{
+background:url(../../img/option-decoration/square1_lightblue.png) left top no-repeat;
+}
+.square1_lightpink{
+background:url(../../img/option-decoration/square1_lightpink.png) left top no-repeat;
+}
+.square1_lightorange{
+background:url(../../img/option-decoration/square1_lightorange.png) left top no-repeat;
+}
+.square1_lightgreen{
+background:url(../../img/option-decoration/square1_lightgreen.png) left top no-repeat;
+}
+.square1_blue{
+background:url(../../img/option-decoration/square1_blue.png) left top no-repeat;
+}
+.square1_pink{
+background:url(../../img/option-decoration/square1_pink.png) left top no-repeat;
+}
+.square1_orange{
+background:url(../../img/option-decoration/square1_orange.png) left top no-repeat;
+}
+.square1_green{
+background:url(../../img/option-decoration/square1_green.png) left top no-repeat;
+}
+.square1_yellow{
+background:url(../../img/option-decoration/square1_yellow.png) left top no-repeat;
+}
+.square1_red{
+background:url(../../img/option-decoration/square1_red.png) left top no-repeat;
+}
+.square1_grey{
+background:url(../../img/option-decoration/square1_grey.png) left top no-repeat;
+}
+.square1_lilac{
+background:url(../../img/option-decoration/square1_lilac.png) left top no-repeat;
+}
+.square1_silver{
+background:url(../../img/option-decoration/square1_silver.png) left top no-repeat;
+}
+.square1_gold{
+background:url(../../img/option-decoration/square1_gold.png) left top no-repeat;
+}
+.square1_mocha{
+background:url(../../img/option-decoration/square1_mocha.png) left top no-repeat;
+}
+.square1_darkblue{
+background:url(../../img/option-decoration/square1_darkblue.png) left top no-repeat;
+}
+
+
+.square2,.square2_lightblue{
+background:url(../../img/option-decoration/square2_lightblue.png) left top no-repeat;
+}
+.square2_lightpink{
+background:url(../../img/option-decoration/square2_lightpink.png) left top no-repeat;
+}
+.square2_lightorange{
+background:url(../../img/option-decoration/square2_lightorange.png) left top no-repeat;
+}
+.square2_lightgreen{
+background:url(../../img/option-decoration/square2_lightgreen.png) left top no-repeat;
+}
+.square2_blue{
+background:url(../../img/option-decoration/square2_blue.png) left top no-repeat;
+}
+.square2_pink{
+background:url(../../img/option-decoration/square2_pink.png) left top no-repeat;
+}
+.square2_orange{
+background:url(../../img/option-decoration/square2_orange.png) left top no-repeat;
+}
+.square2_green{
+background:url(../../img/option-decoration/square2_green.png) left top no-repeat;
+}
+.square2_yellow{
+background:url(../../img/option-decoration/square2_yellow.png) left top no-repeat;
+}
+.square2_red{
+background:url(../../img/option-decoration/square2_red.png) left top no-repeat;
+}
+.square2_grey{
+background:url(../../img/option-decoration/square2_grey.png) left top no-repeat;
+}
+.square2_lilac{
+background:url(../../img/option-decoration/square2_lilac.png) left top no-repeat;
+}
+.square2_silver{
+background:url(../../img/option-decoration/square2_silver.png) left top no-repeat;
+}
+.square2_gold{
+background:url(../../img/option-decoration/square2_gold.png) left top no-repeat;
+}
+.square2_mocha{
+background:url(../../img/option-decoration/square2_mocha.png) left top no-repeat;
+}
+.square2_darkblue{
+background:url(../../img/option-decoration/square2_darkblue.png) left top no-repeat;
+}
+
+
+.circle1,.circle1_lightblue{
+background:url(../../img/option-decoration/circle1_lightblue.png) left top no-repeat;
+}
+.circle1_lightpink{
+background:url(../../img/option-decoration/circle1_lightpink.png) left top no-repeat;
+}
+.circle1_lightorange{
+background:url(../../img/option-decoration/circle1_lightorange.png) left top no-repeat;
+}
+.circle1_lightgreen{
+background:url(../../img/option-decoration/circle1_lightgreen.png) left top no-repeat;
+}
+.circle1_blue{
+background:url(../../img/option-decoration/circle1_blue.png) left top no-repeat;
+}
+.circle1_pink{
+background:url(../../img/option-decoration/circle1_pink.png) left top no-repeat;
+}
+.circle1_orange{
+background:url(../../img/option-decoration/circle1_orange.png) left top no-repeat;
+}
+.circle1_green{
+background:url(../../img/option-decoration/circle1_green.png) left top no-repeat;
+}
+.circle1_yellow{
+background:url(../../img/option-decoration/circle1_yellow.png) left top no-repeat;
+}
+.circle1_red{
+background:url(../../img/option-decoration/circle1_red.png) left top no-repeat;
+}
+.circle1_grey{
+background:url(../../img/option-decoration/circle1_grey.png) left top no-repeat;
+}
+.circle1_lilac{
+background:url(../../img/option-decoration/circle1_lilac.png) left top no-repeat;
+}
+.circle1_silver{
+background:url(../../img/option-decoration/circle1_silver.png) left top no-repeat;
+}
+.circle1_gold{
+background:url(../../img/option-decoration/circle1_gold.png) left top no-repeat;
+}
+.circle1_mocha{
+background:url(../../img/option-decoration/circle1_mocha.png) left top no-repeat;
+}
+.circle1_darkblue{
+background:url(../../img/option-decoration/circle1_darkblue.png) left top no-repeat;
+}
+
+
+.circle2,.circle2_lightblue{
+background:url(../../img/option-decoration/circle2_lightblue.png) left top no-repeat;
+}
+.circle2_lightpink{
+background:url(../../img/option-decoration/circle2_lightpink.png) left top no-repeat;
+}
+.circle2_lightorange{
+background:url(../../img/option-decoration/circle2_lightorange.png) left top no-repeat;
+}
+.circle2_lightgreen{
+background:url(../../img/option-decoration/circle2_lightgreen.png) left top no-repeat;
+}
+.circle2_blue{
+background:url(../../img/option-decoration/circle2_blue.png) left top no-repeat;
+}
+.circle2_pink{
+background:url(../../img/option-decoration/circle2_pink.png) left top no-repeat;
+}
+.circle2_orange{
+background:url(../../img/option-decoration/circle2_orange.png) left top no-repeat;
+}
+.circle2_green{
+background:url(../../img/option-decoration/circle2_green.png) left top no-repeat;
+}
+.circle2_yellow{
+background:url(../../img/option-decoration/circle2_yellow.png) left top no-repeat;
+}
+.circle2_red{
+background:url(../../img/option-decoration/circle2_red.png) left top no-repeat;
+}
+.circle2_grey{
+background:url(../../img/option-decoration/circle2_grey.png) left top no-repeat;
+}
+.circle2_lilac{
+background:url(../../img/option-decoration/circle2_lilac.png) left top no-repeat;
+}
+.circle2_silver{
+background:url(../../img/option-decoration/circle2_silver.png) left top no-repeat;
+}
+.circle2_gold{
+background:url(../../img/option-decoration/circle2_gold.png) left top no-repeat;
+}
+.circle2_mocha{
+background:url(../../img/option-decoration/circle2_mocha.png) left top no-repeat;
+}
+.circle2_darkblue{
+background:url(../../img/option-decoration/circle2_darkblue.png) left top no-repeat;
+}
+
+
+li.chklist{background-image:url(../../img/option-decoration/chklist.png)!important;}
+
+
+.int0, .int1, .int2, .int3, .int4, .int5, .int6, .int7, .int8, .int9{
+margin:0;
+padding:0;
+float:left;
+text-indent:-9999px;
+outline:none;
+}
+.int0{
+background:url(../../img/option-decoration/int0.png) center no-repeat;
+width:41px;
+height:70px;
+}
+.int1{
+background:url(../../img/option-decoration/int1.png) center no-repeat;
+width:35px;
+height:70px;
+}
+.int2{
+background:url(../../img/option-decoration/int2.png) center no-repeat;
+width:45px;
+height:70px;
+}
+.int3{
+background:url(../../img/option-decoration/int3.png) center no-repeat;
+width:40px;
+height:70px;
+}
+.int4{
+background:url(../../img/option-decoration/int4.png) center no-repeat;
+width:43px;
+height:70px;
+}
+.int5{
+background:url(../../img/option-decoration/int5.png) center no-repeat;
+width:41px;
+height:70px;
+}
+.int6{
+background:url(../../img/option-decoration/int6.png) center no-repeat;
+width:41px;
+height:70px;
+}
+.int7{
+background:url(../../img/option-decoration/int7.png) center no-repeat;
+width:41px;
+height:70px;
+}
+.int8{
+background:url(../../img/option-decoration/int8.png) center no-repeat;
+width:41px;
+height:70px;
+}
+.int9{
+background:url(../../img/option-decoration/int9.png) center no-repeat;
+width:41px;
+height:70px;
+}
+.comma{
+	background:url(../../img/option-decoration/comma.png) center no-repeat;
+	width:22px;
+	height:70px;
+	margin:0;
+	padding:0;
+	float:left;
+	clear:right;
+	text-indent:-9999px;
+	outline:none;
+}
+.yen{
+	background:url(../../img/option-decoration/yen.png) center no-repeat;
+	width:140px;
+	height:70px;
+	margin:0;
+	padding:0;
+	float:left;
+	clear:right;
+	text-indent:-9999px;
+	outline:none;
+}
+
+.int0_m, .int1_m, .int2_m, .int3_m, .int4_m, .int5_m, .int6_m, .int7_m, .int8_m, .int9_m{
+	margin:0;
+	padding:0;
+	float:left;
+	text-indent:-9999px;
+	outline:none;
+}
+
+.int0_m{
+background:url(../../img/option-decoration/int0_m.png) center no-repeat;
+width:36px;
+height:60px;
+}
+.int1_m{
+background:url(../../img/option-decoration/int1_m.png) center no-repeat;
+width:25px;
+height:60px;
+}
+.int2_m{
+background:url(../../img/option-decoration/int2_m.png) center no-repeat;
+width:36px;
+height:60px;
+}
+.int3_m{
+background:url(../../img/option-decoration/int3_m.png) center no-repeat;
+width:38px;
+height:60px;
+}
+.int4_m{
+background:url(../../img/option-decoration/int4_m.png) center no-repeat;
+width:36px;
+height:60px;
+}
+.int5_m{
+background:url(../../img/option-decoration/int5_m.png) center no-repeat;
+width:35px;
+height:60px;
+}
+.int6_m{
+background:url(../../img/option-decoration/int6_m.png) center no-repeat;
+width:35px;
+height:60px;
+}
+.int7_m{
+background:url(../../img/option-decoration/int7_m.png) center no-repeat;
+width:34px;
+height:60px;
+}
+.int8_m{
+background:url(../../img/option-decoration/int8_m.png) center no-repeat;
+width:36px;
+height:60px;
+}
+.int9_m{
+background:url(../../img/option-decoration/int9_m.png) center no-repeat;
+width:35px;
+height:60px;
+}
+.comma_m{
+	background:url(../../img/option-decoration/comma_m.png) center no-repeat;
+	width:21px;
+	height:60px;
+	margin:0;
+	padding:0;
+	float:left;
+	clear:right;
+	text-indent:-9999px;
+	outline:none;
+}
+.yen_m{
+	background:url(../../img/option-decoration/yen_m.png) center no-repeat;
+	width:112px;
+	height:60px;
+	margin:0;
+	padding:0;
+	float:left;
+	clear:right;
+	text-indent:-9999px;
+	outline:none;
+}
+
+.int0_s, .int1_s, .int2_s, .int3_s, .int4_s, .int5_s, .int6_s, .int7_s, .int8_s, .int9_s{
+	margin:0;
+	padding:0;
+	float:left;
+	text-indent:-9999px;
+	outline:none;
+}
+
+.int0_s{
+background:url(../../img/option-decoration/int0_s.png) center no-repeat;
+width:23px;
+height:40px;
+}
+.int1_s{
+background:url(../../img/option-decoration/int1_s.png) center no-repeat;
+width:20px;
+height:40px;
+}
+.int2_s{
+background:url(../../img/option-decoration/int2_s.png) center no-repeat;
+width:24px;
+height:40px;
+}
+.int3_s{
+background:url(../../img/option-decoration/int3_s.png) center no-repeat;
+width:22px;
+height:40px;
+}
+.int4_s{
+background:url(../../img/option-decoration/int4_s.png) center no-repeat;
+width:24px;
+height:40px;
+}
+.int5_s{
+background:url(../../img/option-decoration/int5_s.png) center no-repeat;
+width:23px;
+height:40px;
+}
+.int6_s{
+background:url(../../img/option-decoration/int6_s.png) center no-repeat;
+width:23px;
+height:40px;
+}
+.int7_s{
+background:url(../../img/option-decoration/int7_s.png) center no-repeat;
+width:22px;
+height:40px;
+}
+.int8_s{
+background:url(../../img/option-decoration/int8_s.png) center no-repeat;
+width:24px;
+height:40px;
+}
+.int9_s{
+background:url(../../img/option-decoration/int9_s.png) center no-repeat;
+width:22px;
+height:40px;
+}
+.comma_s{
+	background:url(../../img/option-decoration/comma_s.png) center no-repeat;
+	width:14px;
+	height:40px;
+	margin:0;
+	padding:0;
+	float:left;
+	clear:right;
+	text-indent:-9999px;
+	outline:none;
+}
+.yen_s{
+	background:url(../../img/option-decoration/yen_s.png) center no-repeat;
+	width:71px;
+	height:40px;
+	margin:0;
+	padding:0;
+	float:left;
+	clear:right;
+	text-indent:-9999px;
+	outline:none;
+}
